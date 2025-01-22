@@ -6,20 +6,21 @@
     -->
 
     <!-- Remote -->
-    <remote fetch="https://github.com/Garnet-Playground" name="org" />
-    <remote fetch="https://git.mainlining.org/adarshgrewal" name="adarsh" />
+    <remote fetch="https://github.com/garnet-playground" name="org" />
+    <remote fetch="https://github.com/Evolution-X-Devices" name="evox" />
+    <remote fetch="https://codeberg.org/Coptan99" name="codeberg" />
 
     <!-- Device -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="udc" />
+    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="vic" />
 
     <!-- Vendor -->
-    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="udc" />
+    <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="vic" />
 
     <!-- Kernel -->
-    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="org" revision="udc" />
+    <project name="device_xiaomi_garnet-kernel" path="device/xiaomi/garnet-kernel" remote="org" revision="vic" />
 
     <!-- Other -->
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-21" />
-    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="adarsh" revision="lineage-21" />
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-22" />
+    <project name="android_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="codeberg" revision="lineage-22" />
 
 </manifest>
