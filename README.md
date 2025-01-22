@@ -11,5 +11,5 @@
 
 ## Contact
 
-* If you want talk to me, here is my telegram: https://t.me/AlCoptan99
+* If you want talk to me, here is my telegram: https://t.me/c0pt4n
 * If you *really* feel like donating, you can do so here: https://linktr.ee/Coptan
